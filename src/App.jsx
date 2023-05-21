@@ -15,11 +15,11 @@ function App() {
           </div>
           <div className="Field">
             <p>Email</p>
-            <input type="text" />
+            <input type="text" id='email'/>
           </div>
           <div className="Field">
             <p>Password</p>
-            <input type="text" />
+            <input type="text" id='password'/>
           </div>
           <button id='Btn'>Log In</button>
         </div>
