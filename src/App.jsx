@@ -9,14 +9,19 @@ function App() {
     <>
       <div className="Autorise">
         <div className="PersonalInfo">
-          <p>PERSONAL INFO</p>
+          <div className="FormAutorise">
+            <button id='LogIn'>Log In</button>
+            <button id='SignIn'>Sign In</button>
+          </div>
           <div className="Field">
-            <p>Name*</p>
+            <p>Email</p>
             <input type="text" />
           </div>
-          <div className="Field"></div>
-          <div className="Field"></div>
-          <div className="Field"></div>
+          <div className="Field">
+            <p>Password</p>
+            <input type="text" />
+          </div>
+          <button id='Btn'>Log In</button>
         </div>
       </div>
     </>
