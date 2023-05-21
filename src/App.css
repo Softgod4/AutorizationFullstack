@@ -38,16 +38,35 @@
     background: #FFFFFF;
     border-bottom: 1px solid #D1D0CE;
 }
+.Field input[type=text]:focus {
+    border: 3px solid #8C8C8C;
+    outline: none;
+}
 #LogIn {
+    color: #8C8C8C;
     height: 40px;
     width: 80px;
 }
 #SignIn {
+    color: #8C8C8C;
     height: 40px;
     width: 80px;
 }
 .FormAutorise button{
+    margin-top: 5px;
     margin-left: 10px;
     background-color: #F2F2F7;
+}
+#Btn {
+    position: relative;
+    top: 120px;
+    width: 358px;
+    height: 44px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D1D0CE;
+    margin-left: 33px;
+    margin-right: auto;
+    color: #8C8C8C;
+    background-color: #ffffff;
     border: 1px solid #8C8C8C;
 }
